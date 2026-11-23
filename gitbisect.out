@@ -1,0 +1,31 @@
+running 'python' 'test_bisect.py'
+C:\Users\SSDin\miniforge3\envs\COMP0233\python.exe: can't open file 'C:\\Users\\SSDin\\Desktop\\class\\COMP0233\\sagittal_average\\test_bisect.py': [Errno 2] No such file or directory
+Bisecting: 5 revisions left to test after this (roughly 3 steps)
+[dcaf17b7197034d6736ef1f83972b37ca9b62833] Uses NumPy as it's faster
+running 'python' 'test_bisect.py'
+C:\Users\SSDin\miniforge3\envs\COMP0233\python.exe: can't open file 'C:\\Users\\SSDin\\Desktop\\class\\COMP0233\\sagittal_average\\test_bisect.py': [Errno 2] No such file or directory
+Bisecting: 2 revisions left to test after this (roughly 2 steps)
+[e0c6bd3e7c55a48a4a8bf151a901ea5cf1fdc664] Having a function allows me to run it from other places
+running 'python' 'test_bisect.py'
+C:\Users\SSDin\miniforge3\envs\COMP0233\python.exe: can't open file 'C:\\Users\\SSDin\\Desktop\\class\\COMP0233\\sagittal_average\\test_bisect.py': [Errno 2] No such file or directory
+Bisecting: 0 revisions left to test after this (roughly 1 step)
+[acdaf90f611d243ff21a254984bf41b99ad39c5d] Creates variable to ease the change on coronal plane bins
+running 'python' 'test_bisect.py'
+C:\Users\SSDin\miniforge3\envs\COMP0233\python.exe: can't open file 'C:\\Users\\SSDin\\Desktop\\class\\COMP0233\\sagittal_average\\test_bisect.py': [Errno 2] No such file or directory
+Bisecting: 0 revisions left to test after this (roughly 0 steps)
+[9dc8a27ada280e4479241c37bcb4d7f50c34ca09] Adds input and output data for future testing
+running 'python' 'test_bisect.py'
+C:\Users\SSDin\miniforge3\envs\COMP0233\python.exe: can't open file 'C:\\Users\\SSDin\\Desktop\\class\\COMP0233\\sagittal_average\\test_bisect.py': [Errno 2] No such file or directory
+9dc8a27ada280e4479241c37bcb4d7f50c34ca09 is the first 'bad' commit
+commit 9dc8a27ada280e4479241c37bcb4d7f50c34ca09
+Author: Charlene Bultoc <c.bultoc@neurolab.ac.uk>
+Date:   Sat Jul 20 18:00:33 2019 +0100
+
+    Adds input and output data for future testing
+
+ brain_average.csv |  1 +
+ brain_sample.csv  | 20 ++++++++++++++++++++
+ 2 files changed, 21 insertions(+)
+ create mode 100644 brain_average.csv
+ create mode 100644 brain_sample.csv
+bisect found first 'bad' commit
