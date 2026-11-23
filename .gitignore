@@ -1,0 +1,18 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments and build outputs
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Editors and macOS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store

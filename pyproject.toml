@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sagittal_average"
+version = "0.1.0"
+description = "Calculate averages from brain scan CSV data."
+requires-python = ">=3.9"
+dependencies = ["numpy"]
+
+[project.scripts]
+sagittal-average = "sagittal_average.sagittal_brain:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
